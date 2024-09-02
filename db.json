@@ -1,0 +1,239 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "role": "Software Engineer",
+      "email": "alice.johnson@example.com",
+      "position": "Software Engineer",
+      "department": "Development",
+      "hireDate": "2020-01-15",
+      "profileImage": "https://example.com/images/alice.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "role": "Project Manager",
+      "email": "bob.smith@example.com",
+      "position": "Project Manager",
+      "department": "Management",
+      "hireDate": "2018-03-22",
+      "profileImage": "https://example.com/images/bob.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Carol White",
+      "role": "UX Designer",
+      "email": "carol.white@example.com",
+      "position": "UX Designer",
+      "department": "Design",
+      "hireDate": "2019-07-30",
+      "profileImage": "https://example.com/images/carol.jpg"
+    },
+    {
+      "id": "1725302356117",
+      "email": "mister@ko.com",
+      "password": "marcos",
+      "name": "Marcos Rodriguez",
+      "position": "sfsf",
+      "department": "xxx",
+      "hireDate": "2024-09-17",
+      "profileImage": "https://www.pexels.com/es-es/foto/persona-sosteniendo-la-camara-1704488/"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "101",
+      "employeeId": "1",
+      "evaluationName": "Annual Performance Review 2023",
+      "scores": {
+        "communication": 4,
+        "innovationCreativity": 5,
+        "adaptabilityFlexibility": 4
+      },
+      "teamworkSupport": [
+        "Excellent team player",
+        "Always supportive"
+      ],
+      "professionalDevelopment": "Has shown significant improvement in coding skills.",
+      "selfAssessmentStrengths": "Good problem-solving skills.",
+      "selfAssessmentImprovements": "Needs to improve time management.",
+      "date": "2023-12-01"
+    },
+    {
+      "id": "102",
+      "employeeId": "2",
+      "evaluationName": "Mid-Year Review 2023",
+      "scores": {
+        "communication": 3,
+        "innovationCreativity": 3,
+        "adaptabilityFlexibility": 4
+      },
+      "teamworkSupport": [
+        "Good at delegation",
+        "Encourages team collaboration"
+      ],
+      "professionalDevelopment": "Needs to work on project planning.",
+      "selfAssessmentStrengths": "Strong leadership skills.",
+      "selfAssessmentImprovements": "Improve technical knowledge.",
+      "date": "2023-06-15"
+    },
+    {
+      "id": "103",
+      "employeeId": "3",
+      "evaluationName": "Annual Performance Review 2023",
+      "scores": {
+        "communication": 5,
+        "innovationCreativity": 4,
+        "adaptabilityFlexibility": 5
+      },
+      "teamworkSupport": [
+        "Great listener",
+        "Provides creative solutions"
+      ],
+      "professionalDevelopment": "Excelled in creating user-friendly designs.",
+      "selfAssessmentStrengths": "Creativity and attention to detail.",
+      "selfAssessmentImprovements": "Work on improving wireframing speed.",
+      "date": "2023-12-10"
+    }
+  ],
+  "evaluationForms": [
+    {
+      "id": "201",
+      "title": "Software Engineer Evaluation",
+      "fields": [
+        {
+          "question": "Promedio de Comunicación",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Adaptabilidad y Flexibilidad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Innovación y Creatividad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Comentarios adicionales",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "title": "Project Manager Evaluation",
+      "fields": [
+        {
+          "question": "Promedio de Comunicación",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Adaptabilidad y Flexibilidad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Innovación y Creatividad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Liderazgo",
+          "type": "number"
+        },
+        {
+          "question": "Comentarios adicionales",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "title": "UX Designer Evaluation",
+      "fields": [
+        {
+          "question": "Promedio de Comunicación",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Adaptabilidad y Flexibilidad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Promedio de Innovación y Creatividad",
+          "type": "slider",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "question": "Creatividad en Diseño",
+          "type": "number"
+        },
+        {
+          "question": "Comentarios adicionales",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

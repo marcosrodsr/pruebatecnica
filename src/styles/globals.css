@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.calendar-container .highlight {
+  background-color: #ffeb3b;
+  color: black;
+  font-weight: bold;
+}
