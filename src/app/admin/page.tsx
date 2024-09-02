@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import EmployeeForm from "../employeeForm/page";
 import AdminEvaluationForm from "../adminEvaluationForm/page";
 import EvaluationForm from "../evaluationForm/page";
-import SearchBar from '@/components/SearchBar'; // Asegúrate de ajustar la ruta según tu estructura de archivos
+import SearchBar from '@/components/SearchBar'; 
 import { Employee, EvaluationFormTemplate } from "src/types";
 
 interface Evaluation {
